@@ -1,0 +1,175 @@
+.dropdown{
+  display:inline-block;
+  position:relative;
+  margin-right: 854px;
+}
+.drop2{
+  display:inline-block;
+  position:relative;
+  
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.drop2-content{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+.drop2:hover .dropdown-content{
+  display:block;
+}
+
+.dropdown-content a{
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content:hover a.first{
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+.dropdown-content:hover a.second{
+  color: #FFFFFF;
+  background-color: #FF00FF;
+}
+.dropdown-content:hover a.third{
+  color: #FFFFFF;
+  background-color: #FF4500;
+}
+.button{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family:Jazz LET, fantasy;
+  background-color:lightblue;
+}
+body{
+  background-color: yellow;
+  margin: 10px;
+}
+hr.top{
+  color: blue;
+  border: 8px solid blue;
+  border-radius: 3px;
+}
+.topHead{
+  color:blue;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 40px;
+}
+h5{
+  text-align: center;
+  color: blue;
+}
+img.warChild{
+  float: left;
+
+}
+img.peaceChild{
+  float:right;
+
+}
+.imgText1{
+  font-family: Jazz LET, fantasy;
+  color:deepskyblue;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.imgText2{
+  display: block;
+  margin-left: 400px;
+  font-family: Jazz LET, fantasy;
+  color:deepskyblue;
+  font-size: 25px;
+}
+.support{
+  display: block;
+  margin-left: 400px;
+  line-height: 1.5;
+  color: deepskyblue;
+  font-size: large;
+  
+}
+
+.defList{
+  line-height:1.5;
+}
+.defList dt{
+  display: inline-block;
+}
+.defList2{
+  color: deepskyblue;
+}
+.listHeading{
+  font-family: Jazz LET, fantasy;
+  color: blue;
+  font-size: large;
+}
+.housing{
+ color: blue; 
+ font-size: 15px;
+ font-family: Jazz LET, fantasy;
+}
+.housing1{
+  text-align: center;
+  color: blue;
+  font-family: Jazz LET, fantasy;
+}
+.refPic{
+position:absolute;
+left:38%;
+top:30%;
+
+}
+.refugeePic{
+  border-style:double;
+  border-width:medium;
+  border-color: darkblue;
+}
+.housing2{
+  font-family:Jazz LET, fantasy;
+  font-size: 15px;
+
+}
+a{
+  color:magenta;
+}
+.warChild{
+width: 350px;
+height: 250px;
+}
+.peaceChild{
+  width: 400px;
+  height:250px;
+}
+.linkpage-container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.listHeading::first-letter{
+  font-family: cursive;
+  font-size: 40px;
+  color:darkblue;
+}
+dt[data-hunger]:hover::after{
+  content:attr(data-hunger);
+}

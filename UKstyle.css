@@ -1,0 +1,55 @@
+body{
+    background-color: yellow;
+    margin: 10px;
+  }
+  hr.top{
+    color: blue;
+    border: 8px solid blue;
+    border-radius: 3px;
+  }
+  .topHead{
+    color:blue;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+  }
+  h5{
+    text-align: center;
+    color: blue;
+  }
+  img.warChild{
+    float: left;
+    
+  }
+  img.peaceChild{
+    float:right;
+    
+  }
+  .imgText1{
+    font-family: Jazz LET, fantasy;
+    color:deepskyblue;
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
+  .imgText2{
+    font-family: Jazz LET, fantasy;
+    color:deepskyblue;
+    font-size: 25px;
+  }
+  .support{
+    line-height: 1.5;
+    color: deepskyblue;
+    font-size: large;
+  }
+  
+  .defList{
+    line-height:1.5;
+  }
+  .defList2{
+    color: deepskyblue;
+  }
+  .listHeading{
+    font-family: Jazz LET, fantasy;
+    color: blue;
+    font-size: large;
+  }
